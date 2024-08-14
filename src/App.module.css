@@ -1,0 +1,9 @@
+@import "./vars.css";
+
+.App {
+  background-image: url("../assets/Hero/bg.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}

@@ -1,0 +1,16 @@
+@import "../../vars.css";
+
+.container {
+}
+
+.titleContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 8rem 0;
+}
+
+.paraContent {
+  text-align: center;
+  max-width: 45ch;
+}

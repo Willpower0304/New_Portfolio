@@ -10,6 +10,12 @@
 
 .leftcontainer .images {
   max-width: 250px;
+  z-index: 2;
+}
+
+.images {
+  position: relative;
+  z-index: 2;
 }
 
 .menu {
@@ -28,6 +34,11 @@
   font-size: 1.2rem;
   font-weight: bold;
   color: #b1b1b1;
+  transition: 0.3s all ease-in;
+}
+
+a:hover {
+  color: rgb(240, 255, 240);
 }
 
 .menuItems a {

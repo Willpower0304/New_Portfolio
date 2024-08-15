@@ -16,6 +16,7 @@
 
 .name {
   font-size: 4rem;
+  font-weight: 800;
   text-align: center;
   background: linear-gradient(to bottom, #d0fff4 0%, #d0fff4 1%, #7d7d7d 70%);
   -webkit-background-clip: text;
@@ -42,6 +43,15 @@
 
 .imagenes {
   max-width: 40px;
+}
+
+.blob {
+  position: absolute;
+  filter: blur(90px);
+  opacity: 0.5;
+  top: -500px;
+  left: -150px;
+  z-index: 1;
 }
 
 @media screen and (max-width: 768px) {

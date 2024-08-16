@@ -1,16 +1,189 @@
 @import "../../vars.css";
 
 .container {
+  position: relative;
+  background-image: url("../../../assets/About/about-bg.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    180deg,
+    rgba(133, 133, 133, 0.2) 71%,
+    rgba(194, 194, 194, 0.301) 100%
+  );
+  pointer-events: none;
 }
 
 .titleContainer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 8rem 0;
+  padding: 8rem 3rem 6rem;
+  row-gap: 0.5rem;
+}
+
+.miniTitle {
+  color: #737373;
+  font-weight: 400;
+}
+
+.title {
+  font-size: 3rem;
+  text-align: center;
+  background: linear-gradient(180deg, #dfdfdf 41%, #474747 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .paraContent {
   text-align: center;
+  font-weight: 500;
   max-width: 45ch;
+  background: linear-gradient(180deg, #f3f3f3 75%, #585858 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.cardContainer {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  column-gap: 2rem;
+  row-gap: 3rem;
+  margin: 0 3rem 8rem;
+}
+
+.borderCard {
+  padding: 3rem 2rem 1rem;
+  border-radius: 5px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #ffffff11;
+  position: relative;
+}
+
+.borderCard::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 5px;
+  padding: 1px;
+  background: linear-gradient(to bottom, #727272 0%, #262626 56%);
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  pointer-events: none;
+}
+
+.borderCard > * {
+  position: relative;
+}
+
+.tecno {
+  background: linear-gradient(180deg, #ffffff 20%, #6bb7ff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 0.5rem;
+}
+
+.tecno2 {
+  background: linear-gradient(180deg, #ffffff 20%, #73ffab 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 0.5rem;
+}
+
+.tecno3 {
+  background: linear-gradient(180deg, #ffffff 20%, #816eff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 0.5rem;
+}
+.tecno4 {
+  background: linear-gradient(180deg, #ffffff 20%, #ff9d7f 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 0.5rem;
+}
+
+.desc {
+  max-width: 20ch;
+  color: #737373;
+  margin-bottom: auto;
+}
+
+.num {
+  font-size: 2rem;
+  font-weight: bold;
+  background: linear-gradient(180deg, #737373 0%, #d9d9d9 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  align-self: flex-end;
+}
+
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.logos {
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+}
+
+.logos::before,
+.logos::after {
+  position: absolute;
+  top: 0;
+  width: 250px;
+  height: 100%;
+  content: "";
+  z-index: 2;
+}
+
+.logos::before {
+  left: 0;
+  background: linear-gradient(to left, rgba(255, 255, 255, 0), rgb(54, 54, 54));
+}
+
+.logos::after {
+  right: 0;
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0),
+    rgb(54, 54, 54)
+  );
+}
+
+.logos:hover .logosSlide {
+  animation-play-state: paused;
+}
+
+.logosSlide {
+  display: inline-block;
+  animation: 45s slide infinite linear;
+}
+
+.logosSlide img {
+  height: 64px;
+  margin: 0 3.5rem;
 }

@@ -1,0 +1,46 @@
+@import "../../vars.css";
+
+footer {
+  background-color: #121212;
+  display: flex;
+  flex-direction: column;
+}
+
+.logo {
+  display: flex;
+  max-width: 13rem;
+  align-self: center;
+  margin: 3rem 0;
+}
+
+footer ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer li {
+  display: flex;
+  gap: 3rem;
+  list-style: none;
+  margin-bottom: 3rem;
+}
+
+footer li a {
+  color: #6c6c6c;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+
+.line {
+  border: #222222 1px solid;
+  width: 100%;
+}
+
+.copyright {
+  color: #454545;
+  font-size: 1.1rem;
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}

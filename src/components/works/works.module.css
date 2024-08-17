@@ -30,7 +30,7 @@
 
 .logosContainer {
   position: relative;
-  margin: 8rem 0;
+  margin: 8rem 2rem;
   display: flex;
   flex-direction: column;
   z-index: 1;

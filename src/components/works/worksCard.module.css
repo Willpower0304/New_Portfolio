@@ -1,0 +1,44 @@
+@import "../../vars.css";
+
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  max-width: 345px;
+  z-index: 1;
+}
+
+.image {
+  border-radius: 5px;
+  margin-bottom: 1.5rem;
+  height: 200px;
+  object-fit: cover;
+}
+
+.title {
+  font-size: 1.5rem;
+  color: #d9d9d9;
+}
+
+.description {
+  margin-top: 0.5rem;
+  font-weight: 300;
+  color: #868686;
+}
+
+.links {
+  width: 100%;
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.link {
+  text-decoration: none;
+  color: #e2e2e2;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border-radius: 5px;
+  background: #242424;
+  padding: 0.5rem 1.5rem;
+}

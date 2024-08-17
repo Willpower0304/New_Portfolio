@@ -48,7 +48,7 @@
 
 .leftContainer .para {
   color: #757575;
-  max-width: 40ch;
+  max-width: 37ch;
 }
 
 .rightContainer {
@@ -62,4 +62,31 @@
   padding: 1rem 2rem;
   border-radius: 5px;
   text-decoration: none;
+  text-align: center;
+}
+
+@media screen and (max-width: 980px) {
+  .container {
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .leftContainer .title {
+    margin-bottom: 1rem;
+  }
+
+  .btn {
+    margin-top: 2rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .leftContainer .title {
+    font-size: 2rem;
+  }
+
+  .leftContainer .para {
+    font-size: 0.9rem;
+  }
 }

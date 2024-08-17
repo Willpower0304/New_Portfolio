@@ -10,20 +10,20 @@ footer {
   display: flex;
   max-width: 13rem;
   align-self: center;
-  margin: 3rem 0;
+  margin: 5rem 0;
 }
 
 footer ul {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 3rem;
 }
 
 footer li {
   display: flex;
   gap: 3rem;
   list-style: none;
-  margin-bottom: 3rem;
 }
 
 footer li a {
@@ -43,4 +43,11 @@ footer li a {
   text-align: center;
   margin-top: 3rem;
   margin-bottom: 3rem;
+}
+
+@media screen and (max-width: 450px) {
+  footer li {
+    flex-direction: column;
+    align-items: center;
+  }
 }

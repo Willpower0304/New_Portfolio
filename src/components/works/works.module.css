@@ -27,3 +27,84 @@
   gap: 3rem;
   width: 100%;
 }
+
+.logosContainer {
+  position: relative;
+  margin: 8rem 0;
+  display: flex;
+  flex-direction: column;
+  z-index: 1;
+}
+
+.miniTitle2 {
+  color: #8b8b8b;
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.parent {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: repeat(5, 5vw);
+  grid-gap: 15px;
+}
+
+.gallery {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 6;
+
+  border: 1px solid white;
+  border-radius: 5px;
+  background-color: #ffffff;
+}
+
+.gallery2 {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+
+  grid-column-start: 4;
+  grid-column-end: 6;
+  grid-row-start: 1;
+  grid-row-end: 4;
+
+  border: 1px solid white;
+  border-radius: 5px;
+  background-color: #ffffff;
+}
+
+.gallery3 {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+
+  grid-column-start: 6;
+  grid-column-end: 8;
+  grid-row-start: 1;
+  grid-row-end: 4;
+
+  border: 1px solid white;
+  border-radius: 5px;
+  background-color: #ffffff;
+}
+
+.gallery4 {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+
+  grid-column-start: 4;
+  grid-column-end: 8;
+  grid-row-start: 4;
+  grid-row-end: 6;
+
+  border: 1px solid white;
+  border-radius: 5px;
+  background-color: #ffffff;
+}

@@ -1,0 +1,48 @@
+@import "../../vars.css";
+
+.contactMe {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 1px solid white;
+  justify-content: space-between;
+  width: 70%;
+  z-index: 1;
+  background-color: #3b3b3b;
+  padding: 2rem;
+}
+
+.leftContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.leftContainer .title {
+  font-size: 2.5rem;
+  color: white;
+  margin-bottom: 0.5rem;
+}
+
+.leftContainer .para {
+  color: #757575;
+  max-width: 40ch;
+}
+
+.rightContainer {
+  display: flex;
+  align-items: center;
+}
+
+.rightContainer .btn {
+  color: #e2e2e2;
+  background-color: #242424;
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  text-decoration: none;
+}

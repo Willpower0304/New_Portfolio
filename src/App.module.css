@@ -12,6 +12,9 @@
   position: relative;
   background-image: url("../assets/works/works-bg.jpg");
   background-color: #3a3a3a;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .WorksContainer::before {
@@ -24,7 +27,7 @@
   background: linear-gradient(
     180deg,
     rgba(0, 0, 0, 0.253) 71%,
-    rgba(194, 194, 194, 0.301) 100%
+    rgba(122, 122, 122, 0.301) 100%
   );
   pointer-events: none;
 }

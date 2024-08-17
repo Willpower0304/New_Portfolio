@@ -1,5 +1,6 @@
 import styles from "./App.module.css";
 import { About } from "./components/about/about";
+import { Contact } from "./components/contact/contact";
 import { Hero } from "./components/hero/hero";
 import { Navbar } from "./components/Navbar/navbar";
 import { Works } from "./components/works/works";
@@ -14,6 +15,7 @@ function App() {
       <About />
       <div className={styles.WorksContainer}>
         <Works />
+        <Contact />
       </div>
     </>
   );

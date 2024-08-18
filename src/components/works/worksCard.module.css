@@ -42,6 +42,11 @@
   border-radius: 5px;
   background: #242424;
   padding: 0.5rem 1.5rem;
+  transition: 0.3s all ease-in;
+}
+
+.link:hover {
+  background: #3b3b3b;
 }
 
 @media screen and (max-width: 375px) {

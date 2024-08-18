@@ -163,7 +163,7 @@
 
 .logos::before {
   left: 0;
-  background: linear-gradient(to left, rgba(255, 255, 255, 0), rgb(54, 54, 54));
+  background: linear-gradient(to left, rgba(255, 255, 255, 0), rgb(48, 48, 48));
 }
 
 .logos::after {
@@ -171,7 +171,7 @@
   background: linear-gradient(
     to right,
     rgba(255, 255, 255, 0),
-    rgb(54, 54, 54)
+    rgb(48, 48, 48)
   );
 }
 

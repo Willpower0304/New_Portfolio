@@ -63,6 +63,11 @@
   border-radius: 5px;
   text-decoration: none;
   text-align: center;
+  transition: 0.3s all ease-in;
+}
+
+.btn:hover {
+  background-color: #2e2e2e;
 }
 
 @media screen and (max-width: 980px) {
@@ -88,5 +93,11 @@
 
   .leftContainer .para {
     font-size: 0.9rem;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .container {
+    padding: 3rem 2rem;
   }
 }

@@ -38,13 +38,21 @@
 }
 
 .imgContainer {
+  position: relative;
   display: flex;
   align-items: center;
   gap: 2rem;
+  z-index: 1;
 }
 
 .imagenes {
   max-width: 40px;
+  transition: 0.5s all ease-in;
+}
+
+.imagenes:hover {
+  filter: invert(17%) sepia(6%) saturate(0%) hue-rotate(180deg) brightness(50%)
+    contrast(83%);
 }
 
 .blob {

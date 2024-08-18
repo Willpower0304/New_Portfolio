@@ -102,3 +102,13 @@ a:hover {
     max-width: 200px;
   }
 }
+
+@media screen and (max-width: 350px) {
+  .leftcontainer .images {
+    max-width: 150px;
+  }
+
+  .menuBtn {
+    max-width: 35px;
+  }
+}

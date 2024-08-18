@@ -10,7 +10,7 @@ footer {
   display: flex;
   max-width: 13rem;
   align-self: center;
-  margin: 5rem 0;
+  margin: 5rem 0 4rem;
 }
 
 footer ul {

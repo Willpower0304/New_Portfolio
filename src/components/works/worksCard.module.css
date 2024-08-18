@@ -13,6 +13,7 @@
   margin-bottom: 1.5rem;
   height: 200px;
   object-fit: cover;
+  object-position: top left;
 }
 
 .title {
@@ -41,4 +42,10 @@
   border-radius: 5px;
   background: #242424;
   padding: 0.5rem 1.5rem;
+}
+
+@media screen and (max-width: 375px) {
+  .container {
+    max-width: 300px;
+  }
 }

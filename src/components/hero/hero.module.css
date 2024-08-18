@@ -12,6 +12,7 @@
 .degree {
   color: #d0fff4;
   font-weight: 200;
+  text-align: center;
 }
 
 .name {
@@ -23,7 +24,7 @@
   -webkit-text-fill-color: transparent;
   background-clip: text;
   color: transparent;
-  margin-bottom: 2rem;
+  margin: 0 2rem 2rem;
 }
 
 .namebg {
@@ -33,6 +34,7 @@
   color: rgb(82, 82, 82);
   opacity: 0.1;
   bottom: 2rem;
+  overflow: hidden;
 }
 
 .imgContainer {
@@ -61,5 +63,12 @@
 
   .namebg {
     font-size: 4rem;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .namebg {
+    font-size: 3.5rem;
+    max-width: 30ch;
   }
 }

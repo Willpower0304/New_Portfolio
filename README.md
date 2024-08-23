@@ -57,6 +57,40 @@ This is a personal portfolio developed in React that showcases my projects, skil
 ```bash
   npm run dev
 ```
-Esto debería abrir tu portafolio en http://localhost:3000.
+This should open your portfolio in http://localhost:3000.
     
+## Usage
+
+To add or modify portfolio sections, edit the corresponding components in the src/components folder. Projects and skills can be updated directly in the configuration file or via data components.
+
+
+## Project Structure
+
+project folder structure:
+
+```bash
+  / assets # Images, icons, and other static resources.
+  /src
+    /components # Reusable components like navbar, footer, etc.
+        /about
+        /contact
+        /footer
+        /hero
+        /navbar
+        /works
+    /data
+        Projects.json # projects information  
+```
+## Contribute
+
+Contributions are welcome. Feel free to open an issue or submit a pull request. For significant contributions, please discuss the changes you wish to make first.
+
+
+    
+## Project Status
+
+The project is in development, and is being actively developed.
+## Author
+
+- Name: William Espinoza
 

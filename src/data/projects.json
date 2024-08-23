@@ -2,28 +2,28 @@
   {
     "title": "Password Generator",
     "imageSrc": "works/Password.webp",
-    "description": "Este es un proyecto realizado para generar contraseñas aleatorias.",
+    "description": "This is a project done to generate random passwords.",
     "demo": "https://random-generator-pass.netlify.app/",
     "source": "https://github.com/Willpower0304/Random-Password-Generator"
   },
   {
     "title": "Pandeporte Redesign Web",
     "imageSrc": "works/Pandeporte.webp",
-    "description": "Rediseño del sitio web de Pandeporte (Instituto Panameño del Deporte).",
+    "description": "Redesign of the Pandeporte (Panamanian Sports Institute) website.",
     "demo": "https://pandeporte-web-example.netlify.app/",
     "source": "https://github.com/Willpower0304/Pandeportes-web"
   },
   {
     "title": "Nike Web Example",
     "imageSrc": "works/Nike.webp",
-    "description": "Ejemplo de sitio web de una tienda de zapatos Nike.",
+    "description": "Example of a Nike store website for buying shoes.",
     "demo": "https://nike-example.netlify.app/",
     "source": "https://github.com/Willpower0304/Nike-Web-Example"
   },
   {
     "title": "Minimalistic react website",
     "imageSrc": "works/Minimalistic.webp",
-    "description": "Sitio web Minimalista hecho en React",
+    "description": "Minimalist website made in React",
     "demo": "https://minimalistic-website.netlify.app/",
     "source": "https://github.com/Willpower0304/minimalistic-react-website"
   }

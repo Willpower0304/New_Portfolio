@@ -12,7 +12,7 @@ export const WorksCard = ({
         alt={`image of ${title}`}
         className={styles.image}
       />
-      <h3 className={styles.title}>{title}</h3>
+      <h2 className={styles.title}>{title}</h2>
       <p className={styles.description}>{description}</p>
       <div className={styles.links}>
         <a href={demo} className={styles.link} target="_blank">

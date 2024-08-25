@@ -39,9 +39,10 @@ export const About = () => {
           <p className={styles.num}>03</p>
         </div>
         <div className={styles.borderCard}>
-          <h1 className={styles.tecno4}>Logo Designer</h1>
+          <h1 className={styles.tecno4}>UX/UI Designer</h1>
           <p className={styles.desc}>
-            I continue learning the knowledge and concepts of logo creation.
+            I have experience in wireframe design research and interactive
+            prototypes, always seeking to improve the user experience.
           </p>
           <p className={styles.num}>04</p>
         </div>

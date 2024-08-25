@@ -5,7 +5,7 @@ import { getImageUrl } from "../../utils";
 export const Hero = () => {
   return (
     <div className={styles.container}>
-      <p className={styles.degree}>Software Developer & logo Designer</p>
+      <p className={styles.degree}>Software Developer & UX/UI Designer</p>
       <h1 className={styles.name}>WILLIAM ESPINOZA</h1>
       <h1 className={styles.namebg}>WILLIAM ESPINOZA</h1>
       <div className={styles.imgContainer}>

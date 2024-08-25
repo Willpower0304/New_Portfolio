@@ -2,7 +2,7 @@
 
 .container {
   position: relative;
-  background-image: url("../../../assets/About/about-bg.jpg");
+  background-image: url("../../../assets/About/about-bg.webp");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -123,7 +123,7 @@
 
 .desc {
   max-width: 20ch;
-  color: #737373;
+  color: #808080;
   margin-bottom: auto;
 }
 

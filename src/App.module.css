@@ -1,7 +1,7 @@
 @import "./vars.css";
 
 .App {
-  background-image: url("../assets/Hero/bg.jpg");
+  background-image: url("../assets/Hero/bg.webp");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -10,7 +10,7 @@
 
 .WorksContainer {
   position: relative;
-  background-image: url("../assets/works/works-bg.jpg");
+  background-image: url("../assets/works/works-bg.webp");
   background-color: #3a3a3a;
   background-position: center;
   background-size: cover;

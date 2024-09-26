@@ -33,7 +33,7 @@
   text-align: center;
   color: rgb(82, 82, 82);
   opacity: 0.1;
-  bottom: 23rem;
+  bottom: 27.5rem;
   overflow: hidden;
 }
 
@@ -62,6 +62,22 @@
   top: -500px;
   left: -150px;
   z-index: 1;
+}
+
+.boton {
+  border: 1px solid rgb(182, 182, 182);
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  color: rgb(182, 182, 182);
+  transition: 0.4s all ease-in;
+  text-decoration: none;
+  font-size: 1.2rem;
+  margin-top: 2rem;
+}
+
+.boton:hover {
+  background-color: rgb(182, 182, 182);
+  color: black;
 }
 
 @media screen and (max-width: 768px) {

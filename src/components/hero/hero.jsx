@@ -41,6 +41,13 @@ export const Hero = () => {
           />
         </a>
       </div>
+      <a
+        className={styles.boton}
+        href="https://william-cv-portfolio.netlify.app/"
+        target="_blank"
+      >
+        View CV
+      </a>
       <img className={styles.blob} src={getImageUrl("Hero/blob.svg")} alt="" />
     </div>
   );

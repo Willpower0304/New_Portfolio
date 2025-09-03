@@ -26,5 +26,18 @@
     "description": "Minimalist website made in React",
     "demo": "https://minimalistic-website.netlify.app/",
     "source": "https://github.com/Willpower0304/minimalistic-react-website"
+  },
+  {
+    "title": "Nasa API Website",
+    "imageSrc": "works/Nasa.webp",
+    "description": "Website that fetches data from the Nasa API.",
+    "demo": "https://api-nasa-proyect.netlify.app/",
+    "source": "https://github.com/Willpower0304/Nasa_API_Astro"
+  },
+  {
+    "title": "Login & Register Page",
+    "imageSrc": "works/login.webp",
+    "description": "Login and Register page with form validation.",
+    "source": "https://github.com/Willpower0304/login-form?tab=readme-ov-file"
   }
 ]

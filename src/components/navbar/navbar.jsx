@@ -11,7 +11,7 @@ export const Navbar = () => {
         <a href="/">
           <img
             className={styles.images}
-            src={getImageUrl("Navbar/logoPortfolio.svg")}
+            src={getImageUrl("Navbar/logoBlender.png")}
             alt="my-logo"
           />
         </a>

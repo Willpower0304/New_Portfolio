@@ -8,7 +8,7 @@ export const Footer = () => {
     <footer>
       <img
         className={styles.logo}
-        src={getImageUrl("Navbar/logoPortfolio.svg")}
+        src={getImageUrl("Navbar/logoBlender.png")}
         alt="logo"
       />
       <ul>

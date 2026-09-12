@@ -39,5 +39,10 @@
     "imageSrc": "works/login.webp",
     "description": "Login and Register page with form validation.",
     "source": "https://github.com/Willpower0304/login-form?tab=readme-ov-file"
+  },
+  {
+    "title": "Parroquia App",
+    "imageSrc": "works/parroquia.webp",
+    "description": "App for managing parroquia activities."
   }
 ]

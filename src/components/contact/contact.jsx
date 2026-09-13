@@ -6,7 +6,7 @@ export const Contact = () => {
     <section className={styles.contactMe} id="Contact">
       <div className={styles.container}>
         <div className={styles.leftContainer}>
-          <h1 className={styles.title}>Lets Work Together</h1>
+          <h2 className={styles.title}>Lets Work Together</h2>
           <p className={styles.para}>
             I am available for any questions or if you want to work together.
             Dont hesitate.

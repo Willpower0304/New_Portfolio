@@ -7,7 +7,7 @@ export const About = () => {
     <section className={styles.container} id="About">
       <div className={styles.titleContainer}>
         <p className={styles.miniTitle}>ABOUT ME</p>
-        <h1 className={styles.title}>Who am I?</h1>
+        <h2 className={styles.title}>Who am I?</h2>
         <p className={styles.paraContent}>
           University student studying software development in Panama. I have 0
           work experience, but 1000 experience in doing the best job.
@@ -17,7 +17,7 @@ export const About = () => {
       <div className={styles.cardContainer}>
         <div className={styles.borderCard}>
           <div></div>
-          <h1 className={styles.tecno}>FrontEnd</h1>
+          <h2 className={styles.tecno}>FrontEnd</h2>
           <p className={styles.desc}>
             It is one of my strengths, I have experience in making elegant web
             pages with their necessary functions.
@@ -25,21 +25,21 @@ export const About = () => {
           <p className={styles.num}>01</p>
         </div>
         <div className={styles.borderCard}>
-          <h1 className={styles.tecno2}>BackEnd</h1>
+          <h2 className={styles.tecno2}>BackEnd</h2>
           <p className={styles.desc}>
             I know the basics and several libraries for database use as well.
           </p>
           <p className={styles.num}>02</p>
         </div>
         <div className={styles.borderCard}>
-          <h1 className={styles.tecno3}>Database</h1>
+          <h2 className={styles.tecno3}>Database</h2>
           <p className={styles.desc}>
             Knowledge of databases such as PostgreSQL, MySQL and MongoDB.
           </p>
           <p className={styles.num}>03</p>
         </div>
         <div className={styles.borderCard}>
-          <h1 className={styles.tecno4}>UX/UI Designer</h1>
+          <h2 className={styles.tecno4}>UX/UI Designer</h2>
           <p className={styles.desc}>
             I have experience in wireframe design research and interactive
             prototypes, always seeking to improve the user experience.

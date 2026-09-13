@@ -1,97 +1,169 @@
 ![image](https://github.com/user-attachments/assets/c659df7e-c127-404e-a55f-3950b2845e1a)
 
-
 # PORTFOLIO
 
-This is a personal portfolio developed in React that showcases my projects, skills, and experience. It is designed to be fast, responsive, and easy to update.
+Portafolio personal desarrollado con React y Vite, pensado para presentar mi trabajo, habilidades, experiencia y proyectos relevantes de forma moderna, profesional y adaptable a distintos dispositivos.
 
+Este proyecto funciona como una landing page personal que combina una identidad visual elegante con una estructura clara para destacar mi perfil como desarrollador de software y diseñador UX/UI.
 
-## Table Content
+## Tabla de contenido
 
-- Technologies Used
-- Features
-- Installation
-- Usage
-- Project Structure
-- Contribute
-- Project Status
-- License
-- Contact
+- [Descripción general](#descripción-general)
+- [Características principales](#características-principales)
+- [Tecnologías utilizadas](#tecnologías-utilizadas)
+- [Estructura del proyecto](#estructura-del-proyecto)
+- [Instalación](#instalación)
+- [Uso](#uso)
+- [Scripts disponibles](#scripts-disponibles)
+- [Personalización](#personalización)
+- [Contacto](#contacto)
+- [Estado del proyecto](#estado-del-proyecto)
 
+## Descripción general
 
-## Technologies Used
+El portafolio incluye secciones clave como:
 
-- React: Core library for building the UI.
-- Styled Components: For styling the portfolio.
-- Netlify: Deployment and hosting (optional, if you're using one of these services).
+- Hero o presentación principal
+- Información sobre mí
+- Tecnologías y habilidades
+- Proyectos destacados
+- Sección de contacto
+- Enlaces a redes sociales y CV
 
-## Features
+La idea principal es ofrecer una vista rápida y atractiva del perfil profesional, manteniendo un diseño limpio y una navegación intuitiva.
 
-- Modern Interface: Clean and modern design.
-- Responsive: Optimized for mobile and tablet devices.
-- Intuitive Navigation: With multiple sections such as home, About Me, Jobs, and Contact.
-- Easy to Update: Adding new projects and sections is easy.
+## Características principales
 
+- Diseño moderno y visualmente atractivo
+- Adaptabilidad responsiva para móviles, tablets y desktop
+- Navegación simple con múltiples secciones
+- Presentación de proyectos con enlace a demo y código fuente
+- Diseño enfocado en una experiencia de usuario clara y profesional
+- Fácil de actualizar con nuevos proyectos, redes y contenido personal
+- Construido con una arquitectura modular basada en componentes
 
-## Installation
+## Tecnologías utilizadas
 
-1. Clone this repository to your local machine:
+- React
+- Vite
+- JavaScript
+- CSS Modules
+- HTML5
+- Git y GitHub
+- Netlify (para despliegue opcional)
 
-```bash
-  git clone https://github.com/youruser/your-repository.git
-```
-
-2. Navigate to the project directory:
-
-```bash
-  cd your-repository
-```
-
-3. Install the dependencies:
-
-```bash
-  npm install
-```
-
-3. Start the application in development mode:
-
-```bash
-  npm run dev
-```
-This should open your portfolio in http://localhost:3000.
-    
-## Usage
-
-To add or modify portfolio sections, edit the corresponding components in the src/components folder. Projects and skills can be updated directly in the configuration file or via data components.
-
-
-## Project Structure
-
-project folder structure:
+## Estructura del proyecto
 
 ```bash
-  / assets # Images, icons, and other static resources.
-  /src
-    /components # Reusable components like navbar, footer, etc.
-        /about
-        /contact
-        /footer
-        /hero
-        /navbar
-        /works
-    /data
-        Projects.json # projects information  
+/
+├── assets/                  # Imágenes, iconos y recursos visuales
+├── public/                  # Archivos públicos del proyecto
+├── src/
+│   ├── components/          # Componentes reutilizables
+│   │   ├── about/
+│   │   ├── contact/
+│   │   ├── footer/
+│   │   ├── hero/
+│   │   ├── navbar/
+│   │   └── works/
+│   ├── data/
+│   │   └── projects.json    # Información de proyectos
+│   ├── App.jsx
+│   ├── App.module.css
+│   ├── index.css
+│   ├── main.jsx
+│   ├── utils.js
+│   └── vars.css
+├── index.html
+├── package.json
+├── vite.config.js
+├── eslint.config.js
+├── pnpm-lock.yaml
+├── README.md
+└── ...
 ```
-## Contribute
 
-Contributions are welcome. Feel free to open an issue or submit a pull request. For significant contributions, please discuss the changes you wish to make first.
+## Instalación
 
+1. Clona este repositorio:
 
-    
-## Project Status
+```bash
+git clone https://github.com/youruser/your-repository.git
+```
 
-The project is in development, and is being actively developed.
-## Author
+2. Entra al directorio del proyecto:
 
-- Name: William Espinoza
+```bash
+cd your-repository
+```
+
+3. Instala las dependencias:
+
+```bash
+npm install
+```
+
+4. Inicia la aplicación en modo desarrollo:
+
+```bash
+npm run dev
+```
+
+5. Abre la aplicación en tu navegador en:
+
+```bash
+http://localhost:5173
+```
+
+## Uso
+
+Para modificar el contenido del portafolio:
+
+- Cambia la información personal dentro de los componentes de la carpeta `src/components`.
+- Actualiza los proyectos en `src/data/projects.json`.
+- Ajusta los estilos en los archivos `.module.css` correspondientes.
+- Agrega nuevas redes sociales, enlaces o secciones según tus necesidades.
+
+## Scripts disponibles
+
+En el archivo `package.json` se incluyen los siguientes comandos:
+
+```bash
+npm run dev
+```
+Inicia el proyecto en modo desarrollo.
+
+```bash
+npm run build
+```
+Genera la versión lista para producción.
+
+```bash
+npm run preview
+```
+Previsualiza la compilación de producción.
+
+```bash
+npm run lint
+```
+Ejecuta el análisis estático del código.
+
+## Personalización
+
+Puedes adaptar fácilmente este portafolio para:
+
+- Cambiar tu nombre, título profesional y descripción
+- Añadir nuevas tecnologías o habilidades
+- Modificar las secciones de proyectos y enlaces
+- Reemplazar imágenes o cambiar la paleta de colores
+- Integrar más redes sociales y formularios de contacto
+
+## Estado del proyecto
+
+Este proyecto se encuentra en desarrollo activo y sigue mejorándose con nuevas secciones, diseño refinado y contenido actualizado.
+
+## Autor
+
+- William Espinoza
+
 

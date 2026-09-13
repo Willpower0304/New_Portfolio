@@ -7,7 +7,7 @@ export const Hero = () => {
     <div className={styles.container}>
       <p className={styles.degree}>Software Developer & UX/UI Designer</p>
       <h1 className={styles.name}>WILLIAM ESPINOZA</h1>
-      <h1 className={styles.namebg}>WILLIAM ESPINOZA</h1>
+      <h2 className={styles.namebg}>WILLIAM ESPINOZA</h2>
       <div className={styles.imgContainer}>
         <a href="https://github.com/Willpower0304" target="_blank">
           <img

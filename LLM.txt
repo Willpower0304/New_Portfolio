@@ -1,0 +1,96 @@
+# Project: New Portfolio
+
+## Overview
+This project is a personal portfolio website for William Espinoza, built with React and Vite. It is designed to present the developer's profile, skills, projects, and contact information in a modern, responsive, and minimal interface.
+
+## Purpose
+The site acts as a personal landing page and showcase for:
+- software development work
+- frontend/backend skills
+- UX/UI design capabilities
+- portfolio projects and demos
+- contact and social links
+
+## Tech stack
+- React 18
+- Vite 5
+- JavaScript
+- CSS Modules
+- HTML
+- ESLint
+- Netlify-ready deployment
+
+## Main app structure
+- src/App.jsx: main application entry, renders hero + about + works + contact + footer
+- src/main.jsx: React root bootstrap
+- src/index.css: global resets and base styles
+- src/vars.css: global CSS variables and font imports
+- src/utils.js: helper for asset URLs
+
+## Components
+- src/components/hero/hero.jsx: introduction section with name, social links, and CV button
+- src/components/about/about.jsx: about section, skills summary, and technology logo marquee
+- src/components/works/works.jsx: projects gallery section
+- src/components/works/worksCard.jsx: individual project card
+- src/components/contact/contact.jsx: call-to-action/contact section
+- src/components/footer/footer.jsx: footer with final navigation and social/contact info
+- src/components/navbar/navbar.jsx: top navigation
+- src/components/notFound/notFound.jsx: custom 404 page
+
+## Data model
+Main portfolio data is stored in:
+- src/data/projects.json
+
+Each project object typically includes:
+- title
+- imageSrc
+- description
+- demo (optional)
+- source (optional)
+
+## Design notes
+- Visual style is modern and dark/tech-driven
+- Background and hero visuals use assets from assets/Hero/
+- Content is intentionally personal and portfolio-oriented
+- Responsive behavior is handled through CSS modules and media queries
+- Uses modular CSS files for component-scoped styling
+
+## User/profile information present in the app
+- Name: William Espinoza
+- Role: Software Developer & UX/UI Designer
+- Social links:
+- Email: espinozaw657@gmail.com
+- CV URL is referenced in the hero section
+
+## Important routes / behavior
+- The app is mostly a single-page portfolio.
+- App rendering is controlled in src/App.jsx.
+- If the browser path is anything other than the root "/", the app displays the custom NotFound component.
+- This is a client-side route check using window.location.pathname.
+
+## Project commands
+From the project root:
+- npm install
+- npm run dev
+- npm run build
+- npm run preview
+- npm run lint
+
+## Deployment info
+The project is prepared for frontend deployment through static hosting platforms such as Netlify.
+
+## Project intent
+This repository is a personal portfolio and personal brand website, not a full application backend or multi-page business app. It is best understood as a marketing/presentation site for a software developer and UI designer.
+
+## Repository conventions
+- Use component-based React architecture
+- Keep content mostly in JSX and JSON data files rather than complex logic
+- Styling is component-local via CSS Modules
+- Assets are centralized under assets/ and referenced through src/utils.js
+
+## Notes for future edits
+When making changes:
+- update project content in src/data/projects.json for portfolio entries
+- update component text in the relevant component folder
+- keep styling adjustments in the corresponding .module.css file
+- preserve the portfolio identity and clean dark aesthetic

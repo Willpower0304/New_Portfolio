@@ -1,8 +1,12 @@
 @import "./vars.css";
 
 .App {
+  background-image: url("../assets/Hero/bg.webp");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   background-color: rgb(36, 36, 36);
-  height: 100%;
+  min-height: 100vh;
 }
 
 .WorksContainer {

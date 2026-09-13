@@ -99,6 +99,7 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-bottom: 0.5rem;
+  font-size: 2rem;
 }
 
 .tecno2 {
@@ -106,6 +107,7 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-bottom: 0.5rem;
+  font-size: 2rem;
 }
 
 .tecno3 {
@@ -113,12 +115,14 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-bottom: 0.5rem;
+  font-size: 2rem;
 }
 .tecno4 {
   background: linear-gradient(180deg, #ffffff 20%, #ff9d7f 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-bottom: 0.5rem;
+  font-size: 2rem;
 }
 
 .desc {

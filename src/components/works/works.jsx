@@ -7,7 +7,7 @@ import { getImageUrl } from "../../utils";
 export const Works = () => {
   return (
     <section className={styles.container} id="Works">
-      <h1 className={styles.title}>My Works</h1>
+      <h2 className={styles.title}>My Works</h2>
       <p className={styles.miniTitle}>Websites</p>
       <div className={styles.projects}>
         {projects.map((project, id) => {

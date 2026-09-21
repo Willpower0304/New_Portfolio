@@ -43,6 +43,12 @@
   {
     "title": "Parroquia App",
     "imageSrc": "works/parroquia.webp",
-    "description": "App for managing parroquia activities."
+    "description": "App for managing parroquia activities. A real project done for a client."
+  },
+  {
+    "title": "ATC Simulator Game",
+    "imageSrc": "works/ATC.webp",
+    "description": "A simple ATC (Air Traffic Control) simulator game made in JavaScript.",
+    "demo": "https://atc-simulator-game.netlify.app/"
   }
 ]

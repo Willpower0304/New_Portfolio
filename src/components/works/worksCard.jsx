@@ -5,6 +5,8 @@ import { getImageUrl } from "../../utils";
 export const WorksCard = ({
   project: { title, imageSrc, description, demo, source },
 }) => {
+  const hasLinks = demo || source;
+
   return (
     <div className={styles.container}>
       <img
@@ -14,14 +16,30 @@ export const WorksCard = ({
       />
       <h2 className={styles.title}>{title}</h2>
       <p className={styles.description}>{description}</p>
-      <div className={styles.links}>
-        <a href={demo} className={styles.link} target="_blank">
-          Demo
-        </a>
-        <a href={source} className={styles.link} target="_blank">
-          Source
-        </a>
-      </div>
+      {hasLinks && (
+        <div className={styles.links}>
+          {demo && (
+            <a
+              href={demo}
+              className={styles.link}
+              target="_blank"
+              rel="noreferrer"
+            >
+              Demo
+            </a>
+          )}
+          {source && (
+            <a
+              href={source}
+              className={styles.link}
+              target="_blank"
+              rel="noreferrer"
+            >
+              Source
+            </a>
+          )}
+        </div>
+      )}
     </div>
   );
 };
